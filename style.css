@@ -8,6 +8,10 @@ header #navbar{
     background-color: #ff6900;
     height: 68px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .centered-container{
@@ -18,5 +22,15 @@ header #navbar{
     height: 900px;
     margin-top: 60px;
 
+}
+
+#site-name{
+    height: 30px;
+    width: auto;
+}
+
+.items{
+    height: 25px;
+    width: auto;
 
 }
