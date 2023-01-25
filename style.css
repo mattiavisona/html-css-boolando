@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header #navbar{
+    background-color: #ff6900;
+    height: 68px;
+    width: 100%;
+}
+
+.centered-container{
+    max-width: 1005px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+    margin-top: 60px;
+
+
+}
