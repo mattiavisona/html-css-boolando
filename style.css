@@ -3,24 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+ 
+header{
+    background-color: #FF6900;
+}
 
 header #navbar{
-    background-color: #ff6900;
     height: 68px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 
 .centered-container{
     max-width: 1005px;
-    background-color: grey;
     margin-left: auto;
     margin-right: auto;
-    height: 900px;
-    margin-top: 60px;
 
 }
 
@@ -30,7 +31,40 @@ header #navbar{
 }
 
 .items{
-    height: 25px;
+    height:25px;
     width: auto;
-
 }
+
+.first-row-img{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 40px;
+}
+#first-img{
+    width: auto;
+    height: 400px;
+}
+
+#second-img{
+    width: auto;
+    height: 400px;
+}
+
+#third-img{
+    width: auto;
+    height: 400px;
+}
+
+.model{
+    width: auto;
+    height: 400px;
+}
+
+.second-row-img{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
