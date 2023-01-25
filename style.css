@@ -68,3 +68,95 @@ header #navbar{
     margin-top: 40px;
 }
 
+.heart{
+    position: absolute;
+    left: 765px;
+    top: 120px;
+    background-color: white;
+    width: 21px;
+    padding-left: 3px;
+    height: 22px;
+}
+ 
+.percentuale{
+    position: absolute;
+    left: 505px;
+    top: 460px;
+    background-color: red;
+    height: 24px;
+    width: 38px;
+    color: white;
+    padding: 3px;
+}
+
+.sostenibilità{
+    position: absolute;
+    top: 460px;
+    left: 545px;
+    color: white;
+    background-color: green;
+    height: 24px;
+    padding: 2px;
+}
+
+.second-heart{
+    position: absolute;
+    left: 765px;
+    top: 560px;
+    background-color: white;
+    width: 21px;
+    padding-left: 3px;
+    height: 22px;
+}
+
+.second-percentuale{
+    position: absolute;
+    top: 900px;
+    left:505px;
+    background-color: red;
+    height: 24px;
+    width: 38px;
+    color: white;
+    padding: 3px;
+}
+
+.second-sostenibilità{
+    position: absolute;
+    top: 900px;
+    left: 545px;
+    color: white;
+    background-color: green;
+    height: 24px;
+    padding: 2px;
+}
+
+.third-heart{
+    position: absolute;
+    left: 1055px;
+    top: 120px;
+    background-color: white;
+    width: 21px;
+    padding-left: 3px;
+    height: 22px;
+}
+
+.third-percentuale{
+    position: absolute;
+    left: 798px;
+    top: 460px;
+    background-color: red;
+    height: 24px;
+    width: 38px;
+    color: white;
+    padding: 3px;
+}
+
+.third-sostenibilità{
+    position: absolute;
+    top: 460px;
+    left: 838px;
+    color: white;
+    background-color: green;
+    height: 24px;
+    padding: 2px;
+}
