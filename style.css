@@ -13,16 +13,20 @@ header #navbar{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: white;
 }
 
 .centered-container{
-    max-width: 1005px;
+    max-width: 885px;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+a{
+    color: white;
 }
 
 #site-name{
@@ -38,13 +42,15 @@ header #navbar{
 .first-row-img{
     display: flex;
     gap: 15px;
-    justify-content: center;
     margin-top: 40px;
+    justify-content: center;
+   
 }
 #first-img{
     width: auto;
     height: 400px;
 }
+
 
 #second-img{
     width: auto;
@@ -70,7 +76,7 @@ header #navbar{
 
 .heart{
     position: absolute;
-    left: 765px;
+    left: 755px;
     top: 120px;
     background-color: white;
     width: 21px;
@@ -80,7 +86,7 @@ header #navbar{
  
 .percentuale{
     position: absolute;
-    left: 505px;
+    left: 500px;
     top: 460px;
     background-color: red;
     height: 24px;
@@ -92,7 +98,7 @@ header #navbar{
 .sostenibilità{
     position: absolute;
     top: 460px;
-    left: 545px;
+    left: 540px;
     color: white;
     background-color: green;
     height: 24px;
@@ -101,8 +107,8 @@ header #navbar{
 
 .second-heart{
     position: absolute;
-    left: 765px;
-    top: 560px;
+    left: 1048px;
+    top: 120px;
     background-color: white;
     width: 21px;
     padding-left: 3px;
@@ -111,8 +117,8 @@ header #navbar{
 
 .second-percentuale{
     position: absolute;
-    top: 900px;
-    left:505px;
+    left: 790px;
+    top: 460px;
     background-color: red;
     height: 24px;
     width: 38px;
@@ -120,20 +126,11 @@ header #navbar{
     padding: 3px;
 }
 
-.second-sostenibilità{
-    position: absolute;
-    top: 900px;
-    left: 545px;
-    color: white;
-    background-color: green;
-    height: 24px;
-    padding: 2px;
-}
 
 .third-heart{
     position: absolute;
-    left: 1055px;
-    top: 120px;
+    left: 1338px;
+    top: 115px;
     background-color: white;
     width: 21px;
     padding-left: 3px;
@@ -142,8 +139,8 @@ header #navbar{
 
 .third-percentuale{
     position: absolute;
-    left: 798px;
     top: 460px;
+    left:1085px;
     background-color: red;
     height: 24px;
     width: 38px;
@@ -151,12 +148,76 @@ header #navbar{
     padding: 3px;
 }
 
-.third-sostenibilità{
+.fourth-heart{
     position: absolute;
-    top: 460px;
-    left: 838px;
+    left: 755px;
+    top: 562px;
+    background-color: white;
+    width: 21px;
+    padding-left: 3px;
+    height: 22px;
+}
+
+.fourth-percentuale{
+    position: absolute;
+    left: 500px;
+    top: 895px;
+    background-color: red;
+    height: 24px;
+    width: 38px;
+    color: white;
+    padding: 3px;
+}
+
+.fourth-sostenibilità{
+    position: absolute;
+    top: 895px;
+    left: 540px;
     color: white;
     background-color: green;
     height: 24px;
     padding: 2px;
 }
+
+.fifth-heart{
+    position: absolute;
+    left: 1048px;
+    top: 562px;
+    background-color: white;
+    width: 21px;
+    padding-left: 3px;
+    height: 22px;
+}
+
+.sixth-heart{
+    position: absolute;
+    left: 1338px;
+    top: 562px;
+    background-color: white;
+    width: 21px;
+    padding-left: 3px;
+    height: 22px;
+}
+
+.sixth-sostenibilità{
+    position: absolute;
+    top: 895px;
+    left: 1085px;
+    color: white;
+    background-color: green;
+    height: 24px;
+    padding: 2px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    margin-top: 70px;
+    color: white;
+}
+
+#last{
+    padding: 25px;
+}
+
+
